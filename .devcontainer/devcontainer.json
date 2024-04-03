@@ -3,6 +3,7 @@
     "privileged": true,
     "remoteUser": "builder",
     "image": "ghcr.io/nathanaelgandhi/dev-image-ros2:main",
+    "initializeCommand": "docker pull ghcr.io/nathanaelgandhi/dev-image-ros2:main",
     "workspaceFolder": "/home/ws",
     "workspaceMount": "source=${localWorkspaceFolder},target=/home/ws,type=bind",
     "customizations": {
