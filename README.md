@@ -19,6 +19,15 @@ printenv | grep -i ROS
 colcon build --symlink-install
 ```
 
+```
+colcon build
+```
+
+Only build a select package
+```
+colcon build --packages-select <package>
+```
+
 ## Run tests
 ```
 colcon test
