@@ -14,6 +14,21 @@ source source.sh
 printenv | grep -i ROS
 ```
 
+## Build the workspace
+```
+colcon build --symlink-install
+```
+
+## Run tests
+```
+colcon test
+```
+
+## Source the environment
+```
+source install/setup.bash
+```
+
 ## Tutorial notes
 ### ros2 param dump
 Dumping params to a file example
