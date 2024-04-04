@@ -25,8 +25,20 @@ colcon test
 ```
 
 ## Source the environment
+To source the overlay as well as the underlay it was created in
 ```
 source install/setup.bash
+```
+
+To only source an overlay
+```
+source install/local_setup.bash
+```
+
+## Resolve dependencies
+Note: It is best practice to check for dependencies every time you clone
+```
+rosdep install -i --from-path src --rosdistro humble -y
 ```
 
 ## Tutorial notes
