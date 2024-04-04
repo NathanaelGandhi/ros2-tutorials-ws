@@ -33,3 +33,9 @@ To start a node with the saved params use:
 ```
 ros2 run turtlesim turtlesim_node --ros-args --params-file turtlesim.yaml
 ```
+
+### Actions
+Actions consist of three parts: a goal, feedback, and a result.
+See [Understanding ROS2 Actions](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html).
+
+Note: Don’t assume every action server will choose to abort the current goal when it gets a new one.
