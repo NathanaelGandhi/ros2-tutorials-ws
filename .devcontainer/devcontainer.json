@@ -1,5 +1,5 @@
 {
-    "name": "ROS 2 Development Container",
+    "name": "ros2-tutorials-ws: ROS 2 Development Container",
     "privileged": true,
     "remoteUser": "builder",
     "image": "ghcr.io/nathanaelgandhi/dev-image-ros2:main",
